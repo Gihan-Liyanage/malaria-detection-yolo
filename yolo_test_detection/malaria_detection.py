@@ -8,10 +8,10 @@ import random
 net = cv2.dnn.readNet("yolov3_training_last.weights", "yolov3_testing.cfg")
 
 # Name custom object
-classes = ["Koala"]
+classes = ["Leish"]
 
 # Images path
-images_path = glob.glob(r"D:\Pysource\Youtube\2020\105) Train Yolo google cloud\dataset\*.jpg")
+images_path = glob.glob(r"<PATH_TO_THE_IMAGE>*.jpg")
 
 
 
